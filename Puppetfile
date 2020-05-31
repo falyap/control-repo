@@ -7,6 +7,9 @@ mod 'puppetlabs/concat',       '6.2.0'
 mod 'puppetlabs/stdlib',       '6.3.0'
 mod 'puppetlabs/translate',    '2.2.0'
 mod 'puppetlabs/yumrepo_core', '1.0.7'
+mod 'elastic/elasticsearch',   '6.4.0'
+mod 'richardc/datacat',        '0.6.2'
+mod 'elastic/logstash',        '6.1.5'
 
 # Custom Modules
 mod 'xandrogavino-elk',
