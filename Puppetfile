@@ -7,3 +7,7 @@ mod 'puppetlabs/concat',       '6.2.0'
 mod 'puppetlabs/stdlib',       '6.3.0'
 mod 'puppetlabs/translate',    '2.2.0'
 mod 'puppetlabs/yumrepo_core', '1.0.7'
+
+# Custom Modules
+mod 'xandrogavino-elk',
+  :git => 'https://github.com/falyap/xandrogavino-elk.git'
