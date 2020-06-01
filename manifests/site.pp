@@ -1,4 +1,4 @@
-node puppet.local {
+node puppet {
   include role::master
 }
 node elk.local {
