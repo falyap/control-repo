@@ -12,6 +12,10 @@ mod 'richardc/datacat',        '0.6.2'
 mod 'elastic/logstash',        '6.1.5'
 mod 'puppet/archive',    '4.5.0'
 mod 'puppetlabs/java',   '6.3.0'
+mod 'puppetlabs/firewall',   '2.4.0'
+mod 'puppetlabs/inifile',    '3.1.0'
+mod 'puppetlabs/postgresql', '6.5.0'
+mod 'puppetlabs/puppetdb',   '7.4.0'
 
 # Custom Modules
 mod 'xandrogavino-elk',
