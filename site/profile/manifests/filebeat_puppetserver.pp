@@ -8,6 +8,6 @@ class profile::filebeat_puppetserver {
       ],
      "json_keys_under_root" => true
     } ]
-  logstash_server => 'elk.local', 
+    logstash_server => 'elk.local', 
   }
 }
