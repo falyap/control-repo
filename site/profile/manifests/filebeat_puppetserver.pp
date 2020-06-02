@@ -7,7 +7,7 @@ class profile::filebeat_puppetserver {
         "/var/log/puppetlabs/puppetserver/puppetserver-access.log.json",
       ],
      "json_keys_under_root" => true
-    } ]
+    } ],
     logstash_server => 'elk.local', 
   }
 }
