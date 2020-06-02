@@ -1,6 +1,6 @@
 class profile::filebeat_puppetserver {
   class { 'elk::filebeat':
-    prospector => [ {
+    prospectors => [ {
      "type" => "log",
      "paths" => [
         "/var/log/puppetlabs/puppetserver/puppetserver.log.json",
